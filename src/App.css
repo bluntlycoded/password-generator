@@ -1,0 +1,187 @@
+/* App.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f2eddf; /* Background color */
+  color: #2f354a; /* Text color */
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header Styles */
+.App-header {
+  background-color: #1b5998; /* Header background color */
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f2eddf;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  background-color: #fe9870; /* Hero section background color */
+  color: #2f354a;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* Button Styles */
+button {
+  background-color: #2f354a; /* Button background color */
+  color: #f2eddf;
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #78d7dd; /* Button hover background color */
+}
+
+/* Input Styles */
+input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+/* Styles for password strength indicator */
+.strength-indicator {
+  margin-top: 10px;
+}
+
+.strength-0 { color: #e74c3c; } /* Weakest */
+.strength-1 { color: #e67e22; }
+.strength-2 { color: #f1c40f; }
+.strength-3 { color: #27ae60; }
+.strength-4 { color: #2ecc71; } /* Strongest */
+/* End of styles for password strength indicator */
+
+/* Footer Styles */
+footer {
+  background-color: #1b5998; /* Footer background color */
+  padding: 20px;
+  text-align: center;
+  color: #f2eddf;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Social Icons Styles */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #f2eddf;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #78d7dd;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .App-header {
+    padding: 30px 10px;
+  }
+
+  .hero-section {
+    padding: 60px 10px;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+
+  input {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+/* index.css or App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/* Header Styles */
+.App-header {
+  background-color: #1b5998; /* Header background color */
+  padding: 20px; /* Adjusted padding for a more compact header */
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+  align-items: center;
+  color: #f2eddf;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Align menu items horizontally */
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f2eddf;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #78d7dd;
+}
+/* Footer Styles */
+footer {
+  background-color: #1b5998; /* Footer background color */
+  padding: 40px; /* Increased padding for a bigger footer */
+  text-align: center;
+  color: #f2eddf;
+}
+
+/* ... (previous styles) */
+
+/* Additional Styles for Footer Elements */
+.additional-info {
+  margin-top: 20px;
+}
+
+.additional-info a {
+  color: #f2eddf; /* Color for the additional link */
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.additional-info a:hover {
+  color: #2f354a;
+}
